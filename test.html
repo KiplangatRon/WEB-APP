@@ -1,0 +1,73 @@
+<section id="services" class="content-section dark-bg">
+    <div class="container">
+        <h2>Our Services</h2>
+        <!-- Registration Form -->
+        <div class="service-form">
+            <h2>Register with Us</h2>
+        <form id="registration-form">
+            <!-- Name Field -->
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+            <!-- Email Field -->
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <!-- Password Field -->
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="8">
+            </div>
+            <!-- Date Field -->
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <!-- Dropdown Field -->
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <!-- Radio Buttons -->
+            <div class="form-group">
+                <label>Subscription Plan:</label>
+                <div>
+                    <input type="radio" id="basic" name="plan" value="basic" required>
+                    <label for="basic">Basic</label>
+                </div>
+                <div>
+                    <input type="radio" id="premium" name="plan" value="premium">
+                    <label for="premium">Premium</label>
+                </div>
+            </div>
+            <!-- Checkboxes -->
+            <div class="form-group">
+                <label>Interests:</label>
+                <div>
+                    <input type="checkbox" id="web-design" name="interests" value="web-design">
+                    <label for="web-design">Web Design</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="seo" name="interests" value="seo">
+                    <label for="seo">SEO</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="marketing" name="interests" value="marketing">
+                    <label for="marketing">Digital Marketing</label>
+                </div>
+            </div>
+            <!-- Submit Button -->
+            <button type="submit" class="hero-btn">Register</button>
+        </form>
+        </div>
+    </div>
+</section>
+
+
