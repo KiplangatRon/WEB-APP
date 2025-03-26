@@ -13,10 +13,10 @@
     <!-- Navigation Section -->
     <nav>
         <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Our Services</a></li>
-            <li><a href="#contacts">Emergency Contacts</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="contact.html">Emergency Contacts</a></li>
         </ul>
         <!-- Mobile Menu Toggle -->
         <div class="burger-menu">
@@ -29,12 +29,13 @@
     <!-- Hero Section -->
     <section id="home">
         <div class="text-box">
-            <h1>Welcome to RONs Page</h1>
+        
+            <h1 class="text-ron">Welcome to RONs Page</h1>
             <h2>Kenya's Most Loved Web Service</h2>
             <p>This is a steady-growing web service provider in the country. 
                <br>Our efficiency and effectiveness in web design and related service provision puts us at the forefront and within reach 
                 of our clients.</p>
-            <a href="#" class="hero-btn">Get service today</a>
+            <a href="#" class="hero-btn">Book our services</a>
         </div>
     </section>
 
@@ -124,13 +125,32 @@
 
     <!-- Footer Section -->
     <footer class="footer">
-        <address>
-        Contact us at: <a href="mailto:kibor.ron@yahoo.com">kibor.ron@yahoo.com</a><br>
-        Tudor, Mombasa, Kenya
-         </address><br>
+        <div class="qlinks"><ul>
+            <h4>Quick Links</h4>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+            <li>Register</li>
+        </ul></div>
+        <div class="services"><ul>
+            <h4>Services</h4>
+            <li>Web Design</li>
+            <li>SEO</li>
+            <li>Web Hosting</li>
+            <li>Free Classes</li>
+            <li>Digital Marketing</li>
+        </ul></div>
+        <div class="info"><ul>
+            <h4>Information</h4>
+            <li>Terms and Conditions</li>
+            <li>Privacy Policy</li>
+            <li>Monday - Friday(9am-5pm)</li>
+        </ul>
+    </div>
+        
         <div class="legal-info">
-        <p>&copy; 2025. All rights reserved.</p>
-        <p class="tagline">Building Digital Excellence</p>
+        <p>&copy; 2025. All rights reserved.<span class="tagline">Building Digital Excellence</span></p>
         </div>
     </footer>
 
@@ -155,14 +175,14 @@
         });
 
         // Smooth scroll behavior
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
+        // document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        //     anchor.addEventListener('click', function (e) {
+        //         e.preventDefault();
+        //         document.querySelector(this.getAttribute('href')).scrollIntoView({
+        //             behavior: 'smooth'
+        //         });
+        //     });
+        // });
     </script>
 </body>
 </html>
